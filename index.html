@@ -24,28 +24,27 @@
         </div>
         <div class="row">
         
-            <div class="col-md-8 order-1">
+            <div class="col-md-8 col-sm-8 order-1">
                 <h3 class="mb-4">Billing Address</h3>
-                <form class="needs-validation" novalidate></form>
-
+                <form class="needs-validation" novalidate>
                     <div class="row">
                         <div class="col-md-6 mb-4">
-                            <form>
+                            <div class="form-group">
                                 <label for="Name">First Name</label>
                                 <input type="text" class="form-control" placeholder="First Name" required>
                                 <div class="invalid-feedback">
                                     Valid first name is required.
                                 </div>
-                            </form>
+                            </div>
                         </div>
                         <div class="col-md-6 mb-4">
-                            <form>
+                            <div class="form-group">
                                 <label for="Name">Last Name</label>
                                 <input type="text" class="form-control" placeholder="Last Name" required>
                                 <div class="invalid-feedback">
                                     Valid Last name is required.
                                 </div>
-                            </form>
+                            </div>
                         </div>
 
                     </div>
@@ -88,7 +87,7 @@
 
                     <div class="row">
                         <div class="col-md-5 mb-4">
-                            <label for="coutry">Country</label>
+                            <label for="country">Country</label>
                             <select class="custom-select " required>
                                 <option value="">Choose</option>
                                 <option value="1">India</option> 
@@ -132,65 +131,65 @@
                     <h3 class="mb-4">Payment</h3>
 
                     <div class="custom-control custom-radio">
-                        <input type="radio" class="custom-control-input" id="radio1">
-                        <label class="custom-control-label" for="radio1">Credit card</label>
+                        <input type="radio" class="custom-control-input" name="customRadio" id="credit" checked >
+                        <label class="custom-control-label" for="credit">Credit card</label>
                     </div>
                     <div class="custom-control custom-radio">
-                        <input type="radio" class="custom-control-input" id="radio2">
-                        <label class="custom-control-label" for="radio2">Debit card</label>
+                        <input type="radio" class="custom-control-input" name="customRadio" id="debit">
+                        <label class="custom-control-label" for="debit">Debit card</label>
                     </div>
 
                     <div class="custom-control custom-radio">
-                        <input type="radio" class="custom-control-input" id="radio3">
-                        <label class="custom-control-label" for="radio3">Paypal</label>
+                        <input type="radio" class="custom-control-input" name="customRadio" id="pay" >
+                        <label class="custom-control-label" for="pay">Paypal</label>
                     </div>
                     <div class="row">
                         <div class="col-md-6 mt-4">
-                            <form>
+                            <div class="form-group">
                                 <label for="c-Name">Name on card</label>
                                 <input type="text" class="form-control" placeholder="Name" required>
                                 <small class="text-muted">Full name as displayed on card</small>
                                 <div class="invalid-feedback">
                                     Name on card is required.
                                 </div>
-                            </form>
+                            </div>
                         </div>
                         <div class="col-md-6 mt-4">
-                            <form>
+                            <div class="form-group">
                                 <label for="n-Name">Credit card number</label>
                                 <input type="text" class="form-control" placeholder="Card number" required>
                                 
                                 <div class="invalid-feedback">
                                     Credit card number is required.
                                 </div>
-                            </form>
+                            </div>
                         </div>
                     </div>  
                     <div class="row">
                         <div class="col-md-3 mt-4">
-                            <form>
+                            <div class="form-group">
                                 <label for="e-Name">Expiration</label>
                                 <input type="text" class="form-control" placeholder="" required>
                                 
                                 <div class="invalid-feedback">
                                     is required.
                                 </div>
-                            </form>
+                            </div>
                         </div>
                         <div class="col-md-3 mt-4">
-                            <form>
+                            <div class="form-group">
                                 <label for="Name">CVV</label>
                                 <input type="text" class="form-control" placeholder="" required>
                                 
                                 <div class="invalid-feedback">
                                     is required.
                                 </div>
-                            </form>
+                            </div>
                         </div>
                     </div>
                     <hr>
                     <button class="btn btn-primary btn-lg btn-block " type="submit">
-                    Continue to checkout</button>
+                        Continue to checkout</button>
                 </form>    
 
 
